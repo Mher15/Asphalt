@@ -1,0 +1,349 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Poppins', sans-serif ;
+}
+:root{
+    font-size: 1.4vw;
+}
+.navbar_logoS{
+    color:#219653 !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 30px;
+}
+.navbar_ul
+{
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.navbar_ul li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .8rem;
+    line-height: 21px;
+}
+.navbar_icon i
+{
+    color: #08729D;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-size: 18px;
+}
+
+.navbar_mail{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-left: 5px;
+}
+.main_bg
+{
+    background-image: url("./images/Pictures.png");
+    background-size: cover;   
+    background-repeat: no-repeat;
+   
+}
+.mobil{
+    display: none;
+}
+.main_header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 31rem;
+}
+.main_title
+{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.2rem;
+    color: #2C2C2C;
+    text-shadow: 0px 0px 25px rgba(255, 255, 255, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.main_obautUs{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .72rem;
+    line-height: 1.2rem;
+    width:35rem;
+    color: #000000;
+}
+.main_obautUs span
+{
+    font-weight:bold;
+}
+.know_more
+{
+    width:15rem;
+    height: 3.2rem;
+    background: #08729D;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1), 0px 4px 35px rgba(8, 114, 157, 0.35);
+    border-radius: 10rem;
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 600;
+    font-size: .9rem;
+    line-height: 1rem;
+    color: #ffffff;
+}
+.product_images img{
+    width: 100%;
+}
+.more_details
+{
+    width:13rem;
+    Height:2.5rem;
+    background: #08729D;
+    color: #ffffff;
+}
+.card_bakgrou1
+{
+    background-image: url("./images/Rectangle\ 32.png");
+    background-size: cover;
+    height: 23rem;
+    width:  100%;
+    padding: 1rem;
+}
+.card_bakgrou1 div{
+    margin: 0 auto;
+}
+.card_bakgrou2
+{
+    background-image: url("./images/Rectangle\ 32\ \(1\).png");
+    background-size: cover;
+    height: 23rem;
+    width:  100%;
+    padding: 1rem;
+}
+.card_bakgrou2 div{
+    margin: 0 auto;
+}
+.card_bakgrou3
+{
+    background-image: url("./images/Rectangle\ 32\ \(2\).png");
+    background-size: cover;
+    height: 23rem;
+    width:  100%;
+    padding: 1rem;
+}
+.card_bakgrou3 div{
+    margin: 0 auto;
+}
+.backgr_advantages{
+    background-image: url("./images/white-concrete-wall\ 2.png");
+    background-size: cover;
+}
+.btn1
+{
+    width:100%;
+}
+
+.card_img
+{
+    width: 9rem;
+}
+
+.card_img img
+{
+    width: 100%;
+}
+.form_mail input
+{
+    border: none;
+    width: 10rem;
+    height: 2.3rem;
+    padding-left: 1rem;
+    outline: none;
+    
+
+}
+.form_mail input::placeholder {
+        font-size: .5rem;
+        color: rgb(214, 214, 214);
+}
+.form_send_email
+{
+    width: 2.5rem;
+    height: 2rem;
+    background: none;
+    border: none;
+}
+.form_send_email span i{
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.logoS{
+    color:#219653 ;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:0 bold;
+    font-size: Poppins;
+    line-height: 30px;
+    margin-right: 30px;
+}
+.icons_2
+{
+    width: 4rem;
+    height: 4rem;
+}
+.icons_2 img
+{
+    width: 100%;
+}
+.footer_img
+{
+    width: 13rem;
+}
+.footer_img img
+{
+    width: 100%;
+}
+
+@media (max-width:1000px){
+    ul li{
+        font-size:3rem !important;
+        line-height: 7rem !important;
+    }
+    .form_input
+    {
+        border: 1px solid #ffffff !important;
+    }
+    .main_title span{
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .main_obautUs span{
+        font-size: 1.4rem;
+    }
+    .know_more{
+        width: 17rem;
+        height: 4rem;
+        font-size: 1rem;
+    }
+    .product_title{
+        margin-bottom: 3rem;
+    }
+    .product_title span{
+        font-size: 3rem;
+    }
+    .product_info span{
+        font-size: 1.6rem;
+        padding-top: .5rem;
+    }
+    .more_details
+{
+    width:24rem;
+    Height:4.5rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.onas span{
+    font-size: 3rem !important;
+}
+.card_bakgrou1 , .card_bakgrou2 , .card_bakgrou3 
+{
+    
+height: 40rem !important ;
+}
+
+.nS_titel span{
+    font-size: 4rem !important;
+}
+
+.o_nas_info span{
+    font-size: 2.6rem !important;
+    line-height: 2.4rem !important;
+}
+.primush_title
+{
+    font-size: 4rem !important;
+}
+.icons_2{
+    width: 8rem !important;
+    height: 8rem !important;
+}
+.primush_title_text
+{
+    font-size: 3rem !important;
+}
+.primush_text{
+    font-size: 3rem !important;
+    margin-bottom: 5rem !important;
+}
+.more_details_btn
+{
+    display: flex;
+    justify-content: center;
+}
+.from_flex_bloc
+{
+    height: 15rem !important;
+}
+.from_flex
+{
+    flex-direction: column;
+}
+.form_tit
+{
+    font-size: 2.5rem;
+}    
+.form_tex
+{
+    font-size: 2rem;
+    border: none !important;
+}
+.form
+{
+    margin-top: 2rem;
+}
+.logoS
+{
+    font-size: 2rem;
+}
+
+footer span{
+    font-size: 2rem !important;
+    line-height: 4rem;
+}
+.footer_img {
+    width: 40rem;
+}
+.icons_footer
+{
+    justify-content: space-evenly !important;
+}
+.mobil
+{
+    display: block !important;
+}
+.ps{
+    display: none !important; 
+}
+.card_img{
+    width: 30rem !important;
+}
+.card_info span{
+    font-size: 3rem !important;
+}
+}
